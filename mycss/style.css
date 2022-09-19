@@ -1,0 +1,348 @@
+
+
+html
+{
+    font-size: 62.5%;
+
+     /* 1 rem : 16px by default
+     but we need 1rem : 10px
+     if 16px=100% then 
+     10/16*100 = 62.5%
+     it means 10px=62.5%  */
+
+     /* Note : we will use "rem" only not pixel here */
+}
+
+*
+{
+margin:0;
+padding:0;
+}
+
+
+/* xoxox  this is our Parent Container xoxox */
+/* xoxox  this is our Parent Container xoxox */
+/* xoxox  this is our Parent Container xoxox */
+
+.parent_container
+{
+    /* background-color:greenyellow; */
+    position:absolute;
+    width:100%;
+    height:70rem;
+    overflow:hidden;
+}
+
+/* xoxo NAVIGATION BAR CONTAINER  xxoxox */
+/* xoxo NAVIGATION BAR CONTAINER  xxoxox */
+
+
+/* xoxoxo aligning navbar elements horizontally xoxoxo */
+/* xoxoxo aligning navbar elements horizontally xoxoxo */
+
+
+#navbarMonstera>*
+{
+    display:inline-block;
+}
+#navMid>*
+{
+    display:inline-block;
+}
+#navEnd>*
+{
+    display:inline-block;
+}
+
+/* xoxoxo  positioning nav bar and its elements   xxoxoxxox */
+
+#navbarMonstera
+{
+    /* background-color: aquamarine; */
+    width:100%;
+    height:8rem;
+    position:absolute;
+    top:0;
+}
+
+/* LOGO */
+#logo
+{
+    position:absolute;
+    top:2rem;
+    left:4rem;
+    /* background-color:yellow; */
+}
+
+/* navmid */
+#navMid
+{
+    position:absolute;
+    top:3rem;
+    left:30rem;
+    /* background-color:yellow; */
+}
+
+#navMid h4
+{
+    font-size:2.2rem;
+    font-weight: lighter;
+    margin-left: 8rem;
+}
+
+#navMid h4:hover
+{
+    color:#0af26b;
+    cursor:pointer;
+}
+
+#navEnd
+{
+    /* background-color: yellow; */
+    position:absolute;
+    right:10rem;
+    top:3rem;
+}
+
+#navEnd img
+{
+    margin-left: 3rem;
+}
+
+/* xoxoxoxo  CONTENT PART SECTION 2   xoxoxoxo */
+/* xoxoxoxo  CONTENT PART SECTION 2   xoxoxoxo */
+/* xoxoxoxo  CONTENT PART SECTION 2   xoxoxoxo */
+/* xoxoxoxo  CONTENT PART SECTION 2   xoxoxoxo */
+
+#discription
+{
+    /* background-color:orange; */
+    position:absolute;
+    top:10rem;
+    left:6rem;
+    width:65rem;
+    height:30rem;
+}
+
+#discription ul
+{
+    position:absolute;
+    top:6rem;
+    left:4rem;
+}
+
+#discription h1
+{
+    font-size: 11rem;
+    font-family: Allerta;
+    line-height: 10rem;
+    color:#000000;
+}
+
+#discription li
+{
+    font-size: 1.9rem;
+    font-family: Abel;
+    font-weight: bold;
+    width:45rem;
+    color:#808080;
+}
+
+/* xoxoxox discovery button  xoxoxxo */
+/* xoxoxox discovery button  xoxoxxo */
+/* xoxoxox discovery button  xoxoxxo */
+
+#discover>*
+{
+    display:inline-block;
+}
+
+#discover
+{
+    background-color:#1FAA59;
+    width:22rem;
+    height:5rem;
+    position:absolute;
+    bottom:22rem;
+    left:9rem;
+    border-radius: 25px;
+   
+}
+#discover h1
+{
+    position:absolute;
+    top:0.1rem;
+    left:2rem;
+    font-family:Abel;
+    font-size: 4rem;
+    color:#f0f8ff;
+    font-weight: lighter;
+}
+#discover img
+{
+    position:absolute;
+    right:2rem;
+    top:1.3rem;
+}
+
+#discover:hover
+{
+    background-color: #0af26b;
+    cursor:pointer;
+}
+
+/* xxoxo  xoxoxo footer icons and text 1  xoxoxox  xoxox */
+/* xxoxo  xoxoxo footer icons and text 1  xoxoxox  xoxox */
+/* xxoxo  xoxoxo footer icons and text 1 xoxoxox  xoxox */
+
+#water_plant    
+{
+    /* background-color:rgb(251, 255, 0); */
+    width:26rem;
+    height:10rem;
+    position:absolute;
+    bottom:7rem;
+    left:6rem;
+}
+
+#feeding
+{
+    position:absolute;
+    left:1rem;
+    top:1.5rem;
+}
+#feeding img
+{
+    width:8rem;
+}
+
+#text h4
+{
+    position:absolute;
+    right:10rem;
+    top:2rem;
+    font-size: 2rem;
+    font-family: abel;
+    font-weight:bold;
+}
+
+#text p
+{
+    position:absolute;
+    top:5rem;
+    right:1rem;
+    width:15rem;
+    font-size:1.2rem ;
+    font-family: abel;
+}
+
+/* xxoxo  xoxoxo footer icons and text 2  xoxoxox  xoxox */
+/* xxoxo  xoxoxo footer icons and text 2  xoxoxox  xoxox */
+/* xxoxo  xoxoxo footer icons and text 2 xoxoxox  xoxox */
+
+#light_bulb   
+{
+    /* background-color:rgb(251, 255, 0); */
+    width:26rem;
+    height:10rem;
+    position:absolute;
+    bottom:7rem;
+    left:32rem;
+}
+
+#light
+{
+    position:absolute;
+    left:1rem;
+    top:2rem;
+}
+#light img
+{
+    width:4.5rem;
+}
+
+#text2 h4
+{
+    position:absolute;
+    right:15rem;
+    top:2rem;
+    font-size: 2rem;
+    font-family: abel;
+    font-weight:bold;
+}
+
+#text2 p
+{
+    position:absolute;
+    top:5rem;
+    right:4rem;
+    width:15rem;
+    font-size:1.2rem ;
+    font-family: abel;
+}
+
+/* xxoxo  xoxoxo footer icons and text 3  xoxoxox  xoxox */
+/* xxoxo  xoxoxo footer icons and text 3  xoxoxox  xoxox */
+/* xxoxo  xoxoxo footer icons and text 3 xoxoxox  xoxox */
+
+#care_info
+{
+    /* background-color:rgb(251, 255, 0); */
+    width:26rem;
+    height:10rem;
+    position:absolute;
+    bottom:7rem;
+    left:55rem;
+}
+
+#care
+{
+    position:absolute;
+    left:1rem;
+    top:2.5rem;
+}
+#care img
+{
+    width:5rem;
+}
+
+#text3 h4
+{
+    position:absolute;
+    right:15rem;
+    top:2rem;
+    font-size: 2rem;
+    font-family: abel;
+    font-weight:bold;
+}
+
+#text3 p
+{
+    position:absolute;
+    top:5rem;
+    right:3.5rem;
+    width:15rem;
+    font-size:1.2rem ;
+    font-family: abel;
+}
+
+/* xoxoxox  Bottom right Plant Image xoxoxox */
+/* xoxoxox  Bottom right Plant Image xoxoxox */
+/* xoxoxox  Bottom right Plant Image xoxoxox */
+
+#imgMain
+{
+    position:absolute;
+    bottom:7rem;
+    right:-15rem;
+    z-index: -1;
+}
+
+#imgMain img
+{
+    width:70rem;
+}
+
+
+
+
